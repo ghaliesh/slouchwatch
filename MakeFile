@@ -1,0 +1,2 @@
+test_loader:
+	go test ./tests/loader_test.go -v -coverpkg=./loader

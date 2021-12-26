@@ -1,0 +1,15 @@
+run: 
+	go run main.go
+
+build:
+	go build main.go
+
+test:
+	go test ./tests/... -v 
+
+test_loader:
+	go test ./tests/loader_test.go -v -coverpkg=./loader 
+
+test_config:
+	go test ./tests/config_test.go -v -coverpkg=./config
+

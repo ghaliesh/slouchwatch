@@ -1,4 +1,4 @@
-package loader_test
+package test
 
 import (
 	"testing"
